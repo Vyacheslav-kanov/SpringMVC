@@ -1,8 +1,8 @@
-D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\initializer\ApplicationInitializer.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\model\Post.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\repository\PostRepository.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\exception\NotFoundException.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\Main.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\controller\PostController.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\service\PostService.java
+D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\initializer\AppInitializer.java
 D:\JavaProject\SpringMVC\src\main\java\AnnotationConfig\Config\WebConfig.java

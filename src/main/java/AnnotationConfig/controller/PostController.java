@@ -2,6 +2,7 @@ package AnnotationConfig.controller;
 
 import AnnotationConfig.model.Post;
 import AnnotationConfig.service.PostService;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -26,11 +27,13 @@ public class PostController {
   }
 
   @PostMapping
-  public Post save(@PathVariable Post post) {
+  @ResponseStatus(HttpStatus.CREATED)
+  public Post save(@RequestBody Post post) {
     return service.save(post);
   }
 
   @DeleteMapping("/{id}")
+  @ResponseStatus(HttpStatus.OK)
   public void removeById(long id) {
     service.removeById(id);
   }
